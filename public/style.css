@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0f1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 500px;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    max-height: 700px;
+}
+
+.chat-header {
+    padding: 1.2rem;
+    border-bottom: 1px solid #30363d;
+    text-align: center;
+}
+
+.chat-header h1 {
+    font-size: 1.2rem;
+    color: #e1e4e8;
+}
+
+.chat-header p {
+    color: #8b949e;
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.message {
+    max-width: 85%;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.message.bot {
+    background: #21262d;
+    color: #e1e4e8;
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
+}
+
+.message.user {
+    background: #1f6feb;
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
+}
+
+.chat-input {
+    display: flex;
+    padding: 1rem;
+    gap: 0.5rem;
+    border-top: 1px solid #30363d;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    background: #0d1117;
+    color: #e1e4e8;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.chat-input input:focus {
+    border-color: #58a6ff;
+}
+
+.chat-input button {
+    padding: 0.7rem 1.5rem;
+    background: #1f6feb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.chat-input button:hover {
+    background: #388bfd;
+}
+
+.typing {
+    color: #8b949e;
+    font-style: italic;
+}
