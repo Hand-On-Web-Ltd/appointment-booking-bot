@@ -1,0 +1,37 @@
+[
+  {
+    "id": "consultation",
+    "name": "Initial Consultation",
+    "duration": 30,
+    "price": 0,
+    "description": "Free 30-minute chat about what you need"
+  },
+  {
+    "id": "ai-chatbot-setup",
+    "name": "AI Chatbot Setup",
+    "duration": 60,
+    "price": 150,
+    "description": "We build and deploy a chatbot for your website"
+  },
+  {
+    "id": "voice-agent-demo",
+    "name": "Voice Agent Demo",
+    "duration": 45,
+    "price": 0,
+    "description": "See our AI phone agent in action"
+  },
+  {
+    "id": "automation-audit",
+    "name": "Automation Audit",
+    "duration": 60,
+    "price": 100,
+    "description": "We look at your workflows and find what can be automated"
+  },
+  {
+    "id": "follow-up",
+    "name": "Follow-Up Session",
+    "duration": 30,
+    "price": 75,
+    "description": "Check-in after your project goes live"
+  }
+]
